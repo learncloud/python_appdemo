@@ -1,6 +1,6 @@
 from flask import Flask
 # 3.6 버전까지만 통하는 import 문 -> from flask_mysqldb import MySQL
-# 3.9 버전부터는 통하는 import 문 -> from flaskext.mysql import MySQL
+# 3.9 버전부터는 통하는 import 문 -> from flaskext.mysql import MySQL.
 from flask_mysqldb import MySQL
 from flask import render_template,request
 
